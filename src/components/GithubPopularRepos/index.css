@@ -1,0 +1,36 @@
+.app-container {
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Lobster';
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.repository-container {
+  flex-wrap: wrap;
+  width: 65%;
+}
+
+.failure-img {
+  height: 350px;
+}
+
+.failure-text {
+  color: #1e293b;
+  text-align: center;
+}

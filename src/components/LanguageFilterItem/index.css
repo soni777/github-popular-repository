@@ -1,0 +1,18 @@
+.filter {
+  margin-right: 10px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.active {
+  color: #0284c7;
+  border: solid 1px #0284c7;
+  border-radius: 15px;
+  padding: 3px 10px;
+}
