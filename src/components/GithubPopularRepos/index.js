@@ -111,7 +111,7 @@ class GithubPopularRepos extends Component {
         popularRepos,
         status: apiConstant.success,
       })
-    } else if (response.status === 401) {
+    } else {
       this.setState({status: apiConstant.failure})
     }
   }
